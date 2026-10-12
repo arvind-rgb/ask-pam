@@ -3,7 +3,7 @@
 A working prototype of the decision model from the **Ask Pam** case study — information sharing
 for a shared AI office administrator at Dunder Mifflin.
 
-**Live:** https://&lt;your-username&gt;.github.io/ask-pam/
+**Live:** https://arvind-rgb.github.io/ask-pam/
 
 ## What it is
 
@@ -62,18 +62,13 @@ One file, no build, no dependencies. Open `index.html`, or serve the folder:
 python3 -m http.server 8080
 ```
 
-## Publishing to GitHub Pages
+## Deep links
 
-```bash
-git init && git add . && git commit -m "Ask Pam prototype"
-git branch -M main
-git remote add origin https://github.com/<your-username>/ask-pam.git
-git push -u origin main
-```
+- https://arvind-rgb.github.io/ask-pam/#s6 — the branch-total case
+- https://arvind-rgb.github.io/ask-pam/#tests — the regression tab
 
-Then **Settings → Pages → Source: Deploy from a branch → main / (root)**. The URL appears in a
-minute or two.
+## Deploying
 
-Deep links work: `#s6` opens the branch-total case, `#tests` opens the regression tab.
+Served by GitHub Pages from `main` at the repository root. Push to `main` and it redeploys.
 
 All characters, records and situations are fictional.
